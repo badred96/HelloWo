@@ -14,6 +14,7 @@
 		84DE8E301BA05D87000F0039 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84DE8E2F1BA05D87000F0039 /* Images.xcassets */; };
 		84DE8E331BA05D87000F0039 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84DE8E311BA05D87000F0039 /* LaunchScreen.xib */; };
 		84DE8E3F1BA05D87000F0039 /* HelloWoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 84DE8E3E1BA05D87000F0039 /* HelloWoTests.m */; };
+		84DE8E4A1BA06766000F0039 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84DE8E491BA06766000F0039 /* SecondViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		84DE8E381BA05D87000F0039 /* HelloWoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HelloWoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		84DE8E3D1BA05D87000F0039 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		84DE8E3E1BA05D87000F0039 /* HelloWoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HelloWoTests.m; sourceTree = "<group>"; };
+		84DE8E481BA06766000F0039 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		84DE8E491BA06766000F0039 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +92,8 @@
 				84DE8E2F1BA05D87000F0039 /* Images.xcassets */,
 				84DE8E311BA05D87000F0039 /* LaunchScreen.xib */,
 				84DE8E221BA05D87000F0039 /* Supporting Files */,
+				84DE8E481BA06766000F0039 /* SecondViewController.h */,
+				84DE8E491BA06766000F0039 /* SecondViewController.m */,
 			);
 			path = HelloWo;
 			sourceTree = "<group>";
@@ -219,6 +224,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84DE8E4A1BA06766000F0039 /* SecondViewController.m in Sources */,
 				84DE8E2B1BA05D87000F0039 /* ViewController.m in Sources */,
 				84DE8E281BA05D87000F0039 /* AppDelegate.m in Sources */,
 				84DE8E251BA05D87000F0039 /* main.m in Sources */,
